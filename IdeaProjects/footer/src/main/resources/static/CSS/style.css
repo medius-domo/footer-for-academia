@@ -1,0 +1,468 @@
+l*{
+    padding:0px;
+    margin:0px;
+    font-family:sans-serif;
+    list-style:none;
+}
+::-webkit-scrollbar{
+    width:0rem;
+}
+footer{
+    width:100%;
+    height:400px;
+    background-color:#E8F4FF;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+     list-style:none;
+}
+img{
+    object-fit:fit;
+    width:2.5rem;
+}
+.footer-content{
+    display:flex;
+    height:80%;
+    width:90%;
+}
+.bottom--links{
+    display:flex;
+    height:20%;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+}
+.academia-bland{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    background:#E8F4FF;
+    height:100%;
+}
+.links{
+    width:50%;
+    display:flex;
+    height:100%;
+    background:#E8F4FF;
+    justify-content:space-evenly;
+    align-items:flex-start;
+     list-style:none;
+}
+.links ul{
+    height:100%;
+}
+.links ul li{
+    padding-top:1rem;
+    font-size:1rem;
+     list-style:none;
+}
+
+.links ul li a{
+color:black;
+text-decoration:none;
+ list-style:none;
+}
+
+.academia-logo{
+    width:100%;
+    height:30%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:0.1rem;
+}
+.academia-logo h2{
+    font-size:2rem;
+    font-weight:700;
+}
+.some-texts{
+    height:70%;
+    width:100%;
+    display:flex;
+    justify-content;flex-start;
+    align-items:flex-start;
+    background:transparent;
+}
+.some-texts p{
+    color:#949494;
+}
+
+hr{
+    height:0.1rem;
+    background:#DBEAFF;
+    width:90%;
+     .social-icon{
+        height:1.25rem;}
+}
+@media only screen and (max-width:575.98px){
+    footer{
+        background:#E8F4FF;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+    }
+    .footer-content{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+    .academia-bland{
+        width:100%;
+        height:30%;
+        background:transparent;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .academia-logo{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:transparent;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .some-texts{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:20px;
+    }
+    .some-texts p{
+        font-size:0.8rem;
+        background:transparent;
+        font-weight:500;
+    }
+    .links{
+        width:80%;
+        display:flex;
+        gap:1rem;
+        flex-direction:column;
+        justify-content:space-evenly;
+        align-items:flex-start;
+        height:auto;
+    }
+    .links ul{
+        padding:1.5rem;
+    }
+    .bottom--links{
+        width:100%;
+        background:transparent;
+        display:flex;
+        flex-direction:column;
+        height:auto;
+        justify-content:space-evenly;
+        align-items:flex-start;
+    }
+    .bottom--text{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        padding:0.5rem;
+    }
+    .social{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:space-evenly;
+        flex-direction:row;
+        align-items:flex-start;
+        padding:0.6rem;
+    }
+     .social-icon{
+        height:1.25rem;}
+}
+
+@media only screen and (min-width:576px){
+    footer{
+        background:#E8F4FF;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+    }
+    .footer-content{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+    .academia-bland{
+        width:100%;
+        height:30%;
+        background:transparent;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .academia-logo{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:transparent;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .some-texts{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:20px;
+    }
+    .some-texts p{
+        font-size:1.1rem;
+        background:transparent;
+        font-weight:500;
+    }
+    .links{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:flex-start;
+        height:auto;
+    }
+    .links ul h4{
+        font-size:1rem;
+    }
+    .links ul{
+        padding:1.5rem;
+    }
+    .bottom--links{
+        width:100%;
+        background:transparent;
+        display:flex;
+        flex-direction:column;
+        height:auto;
+        justify-content:space-evenly;
+        align-items:flex-start;
+    }
+    .bottom--text{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        padding:0.5rem;
+    }
+    .social{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:space-evenly;
+        flex-direction:row;
+        align-items:flex-start;
+        padding:0.6rem;
+    }
+     .social-icon{
+        height:0.7rem;}
+}
+
+@media only screen and (min-width:768px){
+    footer{
+        background:#E8F4FF;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+    }
+    .footer-content{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        height:auto;
+    }
+    .academia-bland{
+        width:100%;
+        height:30%;
+        background:transparent;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .academia-logo{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:transparent;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .some-texts{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-bottom:20px;
+    }
+    .some-texts p {
+        font-size:1.4rem;
+        background:transparent;
+        font-weight:500;
+    }
+    .links{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:flex-start;
+        height:auto;
+    }
+    .links ul h4{
+        font-size:1rem;
+    }
+    .links ul{
+        padding:1.5rem;
+    }
+    .bottom--links{
+        width:100%;
+        background:transparent;
+        display:flex;
+        flex-direction:row;
+        height:auto;
+        justify-content:space-evenly;
+        align-items:flex-start;
+    }
+    .bottom--text{
+        width:100%;
+        height:1rem;
+        font-size:0.8rem;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        padding:0.5rem;
+    }
+    .social{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:space-evenly;
+        flex-direction:row;
+        align-items:flex-start;
+        padding:0.6rem;
+    }
+     .social-icon{
+        height:1.25rem;}
+}
+
+@media only screen and (min-width:992px){
+    footer{
+        background:#E8F4FF;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+    }
+    .footer-content{
+        width:90%;
+        display:flex;
+        flex-direction:row;
+        height:80%;
+    }
+    .academia-bland{
+        width:50%;
+        height:30%;
+        background:transparent;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+    }
+    .academia-logo{
+        width:100%;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        background:transparent;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .some-texts{
+        width:100%;
+        display:flex;
+        justify-content:flex-start;
+        align-items:center;
+        margin-bottom:20px;
+    }
+    .some-texts p{
+        font-size:1.4rem;
+        background:transparent;
+    }
+    .links{
+        width:50%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:flex-start;
+        height:auto;
+        font-size:larger;
+    }
+    .links ul h4{
+        font-size:1rem;
+    }
+    .links ul{
+        padding:1.5rem;
+
+    }
+    .bottom--links{
+        width:100%;
+        background:transparent;
+        display:flex;
+        flex-direction:row;
+        height:auto;
+        justify-content:space-evenly;
+        align-items:flex-start;
+    }
+    .bottom--text{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+    }
+    .social{
+        width:100%;
+        height:1rem;
+        font-size:1rem;
+        display:flex;
+        justify-content:space-evenly;
+        flex-direction:row;
+        align-items:flex-start;
+        padding:0.6rem;
+    }
+    .social-icon{
+    height:1.25rem;}
+}
+
+
